@@ -1,20 +1,20 @@
-### [X] Element Type Selector (标签选择器)
+### X Element Type Selector (标签选择器)
 ```css
 p {color: black;}
 h1 {font-weight: bold;}
 ```
 
-### [.X] Class Selector (class选择器)
+### .X Class Selector (class选择器)
 ```css
 .date-posted {color: #ccc;}
 ```
 
-### [#X] ID Selector (id选择器)
+### #X ID Selector (id选择器)
 ```csss
 #intro {font-weight: bold;}
 ```
 
-### [*] Universal Selector (通用元素选择器)
+### * Universal Selector (通用元素选择器)
 ```css
 * {
  margin: 0;
@@ -34,12 +34,12 @@ I'd advise you to never use this in production code. It adds too much weight on 
 }
 ```
 
-### [X Y] Descendant Selector (后代元素选择器)
+### X Y Descendant Selector (后代元素选择器)
 ```css
 blockquote p {padding-left: 2em;}
 ```
 
-# [X + Y] Adjacent Sibling Combinator (相邻元素选择器)
+### X + Y Adjacent Sibling Combinator (相邻元素选择器)
 ```css
 ul + p {
    color: red;
