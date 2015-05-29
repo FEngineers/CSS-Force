@@ -14,15 +14,16 @@ We can add a Class for parent element, and use cascade to control all the Childr
 
 # Divitus: Div is not always necessary
 We should use:
-
-  <ul class="nav">
-    <li>...</li>
-  <ul>
-
+```html
+<ul class="nav">
+  <li>...</li>
+<ul>
+```
 instead
-
-  <div class="nav">
-    <url>
-      <li>...</li>
-    </ul>
-  </div>
+```html
+<div class="nav">
+  <url>
+    <li>...</li>
+  </ul>
+</div>
+```
