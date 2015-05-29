@@ -1,5 +1,6 @@
 ### X 
 Element Type Selector
+
 *标签选择器*
 ```css
 p {color: black;}
@@ -8,6 +9,7 @@ h1 {font-weight: bold;}
 
 ### .X 
 Class Selector
+
 *Class选择器*
 ```css
 .date-posted {color: #ccc;}
@@ -15,6 +17,7 @@ Class Selector
 
 ### #X 
 ID Selector
+
 *ID选择器*
 ```csss
 #intro {font-weight: bold;}
@@ -22,6 +25,7 @@ ID Selector
 
 ### * 
 Universal Selector
+
 *通用元素选择器*
 ```css
 * {
@@ -36,6 +40,7 @@ I'd advise you to never use this in production code. It adds too much weight on 
 
 ### X > Y
 Child Combinator
+
 *子元素选择器*
 ```css
 #container > .box {
@@ -46,6 +51,7 @@ Child Combinator
 
 ### X Y 
 Descendant Selector
+
 *后代元素选择器*
 ```css
 blockquote p {padding-left: 2em;}
@@ -53,6 +59,7 @@ blockquote p {padding-left: 2em;}
 
 ### X + Y 
 Adjacent Sibling Combinator
+
 *相邻元素选择器*
 ```css
 ul + p {
@@ -62,6 +69,7 @@ ul + p {
 
 ### X[title]
 Attribute Selector
+
 *属性选择器*
 ```css
 input[type="text"] {
