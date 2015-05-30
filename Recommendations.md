@@ -8,6 +8,9 @@ We recommend to use lowercase for Class and ID
 
 We should use "carousel-container" instead "carouselContainer"
 
+# Height Percentage
+Height percentage is related to parent's height, not fot itself.
+
 # Dont add Class for every element
 We can add a Class for parent element, and use cascade to control all the Children.
 
