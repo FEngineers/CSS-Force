@@ -35,6 +35,39 @@
 ```
 [More Style](http://stephanwagner.me/only-css-loading-spinner)
 
+### Customize Input File Button
+```
+label.myLabel input[type="file"] {
+    position: fixed;
+    top: -1000px;
+}
+
+/***** Example custom styling *****/
+.myLabel {
+    border: 2px solid #AAA;
+    border-radius: 4px;
+    padding: 2px 5px;
+    margin: 2px;
+    background: #DDD;
+    display: inline-block;
+}
+.myLabel:hover {
+    background: #CCC;
+}
+.myLabel:active {
+    background: #CCF;
+}
+.myLabel :invalid + span {
+    color: #A44;
+}
+.myLabel :valid + span {
+    color: #4A4;
+}
+<label class="myLabel">
+    <input type="file" required/>
+    <span>My Label</span>
+</label>
+```
 
 ### Blink
 ```css
