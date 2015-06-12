@@ -36,13 +36,11 @@
 [More Style](http://stephanwagner.me/only-css-loading-spinner)
 
 ### Customize Input File Button
-```
+```css
 label.myLabel input[type="file"] {
     position: fixed;
     top: -1000px;
 }
-
-/***** Example custom styling *****/
 .myLabel {
     border: 2px solid #AAA;
     border-radius: 4px;
@@ -63,6 +61,9 @@ label.myLabel input[type="file"] {
 .myLabel :valid + span {
     color: #4A4;
 }
+```
+
+```html
 <label class="myLabel">
     <input type="file" required/>
     <span>My Label</span>
