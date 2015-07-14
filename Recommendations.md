@@ -1,3 +1,12 @@
+# Font Family
+In each font-family, we should provide a generic font family name.
+For example, Georgia is a font family-name, we also need a font generic-name.
+```css
+h1 {
+  font-family: Georgia, serif;
+}
+```
+
 # Name Element
 We should name a element according to "What's the elememnt used to do?" instead "What's the element looks like".
 
