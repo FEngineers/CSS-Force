@@ -1,6 +1,6 @@
 # Font Family
 In each font-family, we should provide a generic font family name.
-For example, Georgia is a font family-name, we also need a font generic-name.
+For example, "Georgia" is a font family-name, we should also provide a font generic-name "serif".
 ```css
 h1 {
   font-family: Georgia, serif;
